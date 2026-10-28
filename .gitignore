@@ -1,0 +1,36 @@
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+myenv/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Flask instance and logs
+instance/
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
